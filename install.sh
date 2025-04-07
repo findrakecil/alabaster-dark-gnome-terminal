@@ -64,8 +64,8 @@ apply() {
   log 4 "Applied cursor colors and configuration"
 
   _write highlight-colors-set "true"
-  _write highlight-foreground-color "'$primary_white'"
-  _write highlight-background-color "'$primary_black'"
+  _write highlight-foreground-color "'$primary_black'"
+  _write highlight-background-color "'$primary_white'"
   log 4 "Applied highlight colors and configuration"
 
   _write "$ALABASTER_DARK_GNOME_TERMINAL_VERSION_DCONF_KEY" "'$ALABASTER_DARK_GNOME_TERMINAL_VERSION'"
